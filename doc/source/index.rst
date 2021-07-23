@@ -2,7 +2,7 @@
 
 Prometheus 科研无人机二次开发平台
 ==============================
-.. image:: ../../images\common\Prometheus LOGO.png
+.. image:: doc\source\images\common\Prometheus LOGO.png
 欢迎使用Prometheus系列无人机在线文档。
 
 本文档是Prometheus系列无人机的在线资源平台，您可以在这里了解到所有关于Prometheus系列无人机的内容。
