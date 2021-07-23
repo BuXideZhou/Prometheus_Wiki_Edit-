@@ -1,19 +1,33 @@
 .. home:
 
-amovlab 文档
+Prometheus 科研无人机二次开发平台
 ==============================
+.. image:: ../../images\common\Prometheus LOGO.png
+欢迎使用Prometheus系列无人机在线文档。
+
+本文档是Prometheus系列无人机的在线资源平台，您可以在这里了解到所有关于Prometheus系列无人机的内容。
+
+我们建议第一次使用Prometheus无人机的朋友，通过文档左边的目录逐章节阅读。
+Prometheus无人机是基于ROS和PX4的开源开发平台，要求使用者掌握Linux/ROS/C++/Python/PX4的基本知识。
+
+祝您使用愉快！
+
 
 .. note::
-   本教程正在积极完善中。
+   本手册由阿木实验室实时维护。若您有对本手册的内容有疑问，可以通过XXX的方式向我们提问。若您希望对本手册提出修改意见，请联系XXX。
 
-本文档提供了产品使用手册/仿真使用手册/PX4基础配置说明
+.. note::
+   可以在这些地方获得其他有关Prometheus项目的信息
+   Prometheus自主无人机项目：https://github.com/amov-lab/Prometheus
+   阿木实验室B站频道：https://space.bilibili.com/432575320?from=search&seid=13705682698139641872
+
 
 -------------------------
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: 首页
+   :caption: 前序
 
    阿木实验室 <https://www.amovlab.com/>
    免责声明 <docs/common/免责声明>
@@ -22,10 +36,29 @@ amovlab 文档
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: 概览
+
+   基本介绍 <docs/common/免责声明>
+   主要特点 <docs/common/免责声明>
+   规格参数 <docs/common/免责声明>
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: 快速入门
+
+   实验环境 <docs/common/免责声明>
+   电脑设置 <docs/common/免责声明>
+   软件安装 <docs/common/免责声明>
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: P450使用手册
 
-   硬件介绍 <docs/p450/1-硬件介绍>
-   软件介绍 <docs/p450/2-软件介绍>
+   基本-P450介绍 <docs/p450/2-软件介绍>
+   基本-开箱讲解 <docs/p450/2-软件介绍>
+   基本-无人机 <docs/p450/2-软件介绍>
    首次飞行 <docs/p450/3-首次飞行>
    常见问题处理 <docs/p450/4-常见问题处理md>
    进阶功能-室内指点飞行 <docs/p450/5-进阶功能-室内指点飞行>
